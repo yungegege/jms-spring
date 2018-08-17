@@ -2,7 +2,7 @@
 # Activemq整合spring
 整合spring可以用spring的JmsTemplate来发送消息
 ## maven依赖
-```java
+```xml
 <properties>
     <spring.version>4.2.5.RELEASE</spring.version>
 </properties>
@@ -191,7 +191,7 @@ public class ProducerServiceImpl implements ProducerService{ //
 </beans>
 ```
 7. producer.xml
-```java
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
